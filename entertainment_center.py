@@ -2,6 +2,17 @@ import fresh_tomatoes
 import media
 
 # ************************Movie data is below**********
+# Movie data formatting is as follows:
+# movie_variable = media.Movie(
+#   "movie name",
+#   "movie desription",
+#   "link to movie poster",
+#   "link to movie video",
+#   "link to movie imdb page")
+#
+# IMPORTANT! Make sure to add or remove movies from the movies variable
+# before running
+
 oceans_11 = media.Movie(
     "Ocean's 11",
     "Danny Ocean and his eleven accomplices plan to rob three Las Vegas"
